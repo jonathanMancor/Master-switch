@@ -1,0 +1,521 @@
+/*
+#2da85e
+#7800ba
+#ff005d
+#ffc000
+*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: normal;
+
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+}
+
+
+/*scrollbar========================================*/
+/*my own code*/
+*::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+
+
+*::-webkit-scrollbar-track {
+  background: none;        /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;   /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+  border: 0px solid black;  /* creates padding around scroll thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: grey;    /* color of the scroll thumb */
+
+}
+
+/*fonts========================================*/
+h1[name=purple]{
+  color: purple;
+}
+h1[name=green]{
+  color: #2da85e;
+}
+h1[name=gold]{
+  color: #ffc000;
+}
+h1[name=red]{
+  color: #ff005d;
+}
+h1{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.7em;
+  text-shadow: 1px 1px black;
+  padding: 50px 0;
+}
+figcaption h1{
+  font-size: 1.7em;
+  margin: -50px auto;
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 10px;
+}
+
+h2{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+}
+
+h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8em;
+}span{
+  width: 10px;
+  height: 10px;
+  background: white;
+  display: block;
+  border: 1px solid;
+
+}
+span{
+  margin: 0px 0px -10px 190px;
+  position: relative;
+}
+figcaption :is(h3, p){
+  margin: 0px 0px 0px 0px;
+  width: 95%;
+}
+
+
+hr{
+  margin: 10px auto 50px auto;
+  width: 60%;
+}
+
+div > p{
+  margin: 10px auto 10px auto;
+}
+p, td{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1em;
+}
+
+p strong{
+  color: #ff005d;
+  font-size: 1.1em;
+}
+
+
+
+/*Buttons & Links========================================*/
+.pageBtn{
+  border: 2px solid;
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+  background: black;
+  color: black;
+  margin: 20px auto 10% auto;
+}
+
+
+
+
+
+a,.pageBtn{
+  color: rgb(205, 205, 205);
+  -webkit-transition: color 0.3s, font-size 0.3s;
+       -moz-transition: color 0.3s, font-size 0.3s;
+         -o-transition: color 0.3s, font-size 0.3s;
+            transition: color 0.3s, font-size 0.3s;
+}
+
+a{
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+:is(nav, #homeNav) a:nth-child(1){
+  color: #58A376;
+}
+:is(nav, #homeNav) a:nth-child(2){
+  color: #FA88CF;
+}
+:is(nav, #homeNav) a:nth-child(3){
+  color: #D287FA;
+}
+:is(nav, #homeNav) a:nth-child(4){
+  color: #FADD87;
+}
+a:hover{
+  font-size: 1em;
+}
+:is(nav, #homeNav) a:nth-child(1):hover{
+  color: #2da85e;
+}
+:is(nav, #homeNav) a:nth-child(2):hover{
+  color: #ff005d;
+}
+:is(nav, #homeNav) a:nth-child(3):hover{
+  color: #A600FF;
+}
+:is(nav, #homeNav) a:nth-child(4):hover{
+  color: #ffc000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Nav========================================*/
+nav{
+  display: flex;
+  height: 5%;
+}
+nav a{
+  margin: 15px 2.5%;
+}
+
+nav a:hover{
+  font-size: 1em;
+}
+
+
+
+
+
+/*fonts========================================*/
+
+section{
+  color: black;
+  width: 95%;
+  height: 88%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 3px solid white;
+  box-shadow: inset 0px 0px 5px 5px white;
+  background: rgb(0,0,0,1);
+  background: radial-gradient(circle, #08040A 0%, #08040A 85%, white 190%);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+.smallCntr{
+  width: 70%;
+  display: flex;
+  margin: 0 auto 30px auto;
+  min-width: 370px;
+  max-width: 700px
+}
+
+.cntr{
+  width: 100%;
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+img{
+  width:100%;
+  margin: auto;
+  max-width: 300px;
+}
+
+figcaption img{
+  width:100%;
+  margin: -60px auto;
+  max-width: 400px;
+}
+
+
+
+
+
+
+#header{
+  width: 80%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+
+}
+
+
+
+
+
+#homeNav{
+  margin: auto auto 10% auto;
+  width: 30%;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 2%;
+  flex-direction: column;
+}
+
+#homeNav a{
+  font-size: 1em;
+  margin: 5px auto 5px auto;
+}
+#homeNav a:hover{
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+.cntr figure{
+  margin: 0 50px 50px 50px;
+  width: 15%;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+
+
+footer{
+  height: 5%;
+}
+footer p{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================PRODUCT=================*/
+
+
+#allProducts{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+
+#allProducts img{
+  border-radius: 5px;
+}
+
+
+
+
+
+/*=======================Table================*/
+table{
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+th{
+  padding: 10px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8em;
+  color: black;
+  border-radius: 5px;
+}
+
+tr:nth-child(1) th:nth-child(1){
+  background: #B447EE;
+
+}
+tr:nth-child(1) th:nth-child(2){
+  background: #2da85e;
+}
+tr:nth-child(1) th:nth-child(3){
+  background: white;
+}
+tr:nth-child(1) th:nth-child(4){
+  background: #ffc000;
+}
+
+
+
+td{
+ margin: 0 10px 0 10px
+}
+
+td:nth-child(1){
+ background: #51206B;
+}
+td:nth-child(2){
+ background: #3D6B4F;
+}
+td:nth-child(4){
+ background: #B88A00;
+}
+
+tr{
+  border: 1px solid red;
+}
+
+td span{
+  margin: 5px 5px 0 5px;
+}
+
+table > tbody > tr > td:nth-child(3){
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/*=======================ABOUT=================*/
+
+#about{
+  min-width: 360px;
+  flex-direction: column;
+  text-align: left;
+}
+
+#about :is(p, h2){
+  width: 50%;
+  max-width: 600px;
+}
+#about h2{
+  margin: 0 auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================Form=================*/
+
+form{
+  margin: 0 auto;
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+form aside{
+  width: 45%;
+  display: block;
+  margin: auto;
+
+}
+form :is(input, label, textarea) {
+  width: 100%;
+
+}
+
+form aside:nth-child(3){
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+form > aside > textarea{
+  height: 200px;
+  color: black;
+}
+form button{
+  text-align: center;
+  width: 30%;
+  color: black;
+  margin: 0 35% 0 35%;
+}
+
+form p{
+  width: 60%;
+  margin: 5% auto 5% auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#2da85e
+#7800ba
+#ff005d
+#ffc000
+*/
+
+
+
+span[name=purple]{
+  background: purple;
+}
+span[name=green]{
+  background: #2da85e;
+}
+span[name=gold]{
+  background: #ffc000;
+}
+span[name=red]{
+  background: #ff005d;
+}
